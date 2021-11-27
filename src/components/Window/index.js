@@ -1,9 +1,14 @@
 import React from 'react';
 
-const Window = () => {
+import TopBar from '../TopBar';
+
+const Window = ({ children }) => {
   return (
     <div>
-      <h1>Window</h1>
+      <TopBar />
+      <div id="window-content">
+        {children}
+      </div>
     </div>
   );
 }
