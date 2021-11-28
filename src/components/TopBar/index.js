@@ -9,6 +9,11 @@ import maximize from '../../assets/maximize.svg';
 import close from '../../assets/close.svg';
 
 const StyledComponent = styled.div`
+  background-color: ${theme.palette.primary.main};
+
+  display: flex;
+  flex-direction: row;
+
   button {
     width: 200px;
     height: 200px;
@@ -27,6 +32,7 @@ const StyledComponent = styled.div`
 const TopBar = () => {
   return (
     <StyledComponent>
+      <h1>Google search</h1>
       <button id="minimize-button" type="button">
         <img src={minimize} alt="minimize" />
       </button>
