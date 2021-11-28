@@ -15,8 +15,17 @@ const StyledComponent = styled.div`
   flex-direction: row;
 
   button {
-    width: 200px;
-    height: 200px;
+    width: 19px;
+    height: 19px;
+
+    padding: 3px;
+    margin: 1px;
+
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+
+    border-radius: 2px;
   }
 
   #minimize-button,

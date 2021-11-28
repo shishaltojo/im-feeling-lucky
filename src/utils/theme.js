@@ -7,6 +7,9 @@ const theme = {
       main: '#ED5627',
     }
   },
+  rounding: {
+    default: '6px',
+  },
 };
 
 export default theme;
