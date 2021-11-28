@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import theme from '../../utils/theme';
+
 // Assets
 import minimize from '../../assets/minimize.svg';
 import maximize from '../../assets/maximize.svg';
@@ -8,13 +10,17 @@ import close from '../../assets/close.svg';
 
 const StyledComponent = styled.div`
   button {
-    background-color: blue;
     width: 200px;
     height: 200px;
+  }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  #minimize-button,
+  #maximize-button {
+    background-color: ${theme.palette.primary.main};
+  }
+
+  #close-button {
+    background-color: ${theme.palette.error.main};
   }
 `;
 
