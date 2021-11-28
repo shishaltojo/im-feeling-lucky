@@ -1,15 +1,19 @@
 import React from 'react';
+import styled from 'styled-components';
 
+// Components
 import TopBar from '../TopBar';
+
+const StyledComponent = styled.div``;
 
 const Window = ({ children }) => {
   return (
-    <div>
+    <StyledComponent>
       <TopBar />
       <div id="window-content">
         {children}
       </div>
-    </div>
+    </StyledComponent>
   );
 }
 
