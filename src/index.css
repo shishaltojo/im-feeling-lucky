@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Tahoma';
+  src: url('./fonts/tahoma.ttf');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

@@ -4,15 +4,21 @@ import styled from 'styled-components';
 import theme from '../../utils/theme';
 
 // Assets
-import minimize from '../../assets/minimize.svg';
-import maximize from '../../assets/maximize.svg';
-import close from '../../assets/close.svg';
+import minimize from '../../images/minimize.svg';
+import maximize from '../../images/maximize.svg';
+import close from '../../images/close.svg';
 
 const StyledComponent = styled.div`
   background-color: ${theme.palette.primary.main};
 
   display: flex;
   flex-direction: row;
+
+  h1 {
+    font-family: ${theme.typography.font.default};
+    color: white;
+    letter-spacing: ${theme.typography.letterSpacing.default};
+  }
 
   button {
     width: 19px;
