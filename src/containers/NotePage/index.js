@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 
 // Components
@@ -15,20 +15,30 @@ const NotePageStyled = styled.div`
   align-items: center;
 
   .page {
-    width: 600px;
+    width: 640px;
     height: 480px;
 
     background-color: white;
 
     box-shadow: 10px 10px 0px #aaa;
+
+    h1, p {
+      font-family: monospace;
+
+      text-align: center;
+    }
   }
 `;
 
 const NotePage = () => {
+  const [currentPage, setCurrentPage] = useState(0);
+
   return (
     <Window>
       <NotePageStyled>
-        <div className="page"></div>
+        <div className="page">
+          <h1>Diary</h1>
+        </div>
       </NotePageStyled>
     </Window>
   );
