@@ -17,6 +17,13 @@ const StyledComponent = styled.div`
   border-width: 4px;
   border-top-left-radius: ${theme.rounding.default};
   border-top-right-radius: ${theme.rounding.default};
+
+  #window-content {
+    height: 95%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
 `;
 
 const Window = ({ children }) => {
