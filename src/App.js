@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
-// Components
-import Window from './components/Window';
+// Containers
+import NotePage from './containers/NotePage';
 
 function App() {
   return (
-    <Window />
+    <NotePage />
   );
 }
 
