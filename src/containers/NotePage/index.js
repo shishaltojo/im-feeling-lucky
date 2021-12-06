@@ -9,12 +9,27 @@ const NotePageStyled = styled.div`
   height: 100%;
 
   background-color: grey;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .page {
+    width: 600px;
+    height: 480px;
+
+    background-color: white;
+
+    box-shadow: 10px 10px 0px #aaa;
+  }
 `;
 
 const NotePage = () => {
   return (
     <Window>
-      <NotePageStyled />
+      <NotePageStyled>
+        <div className="page"></div>
+      </NotePageStyled>
     </Window>
   );
 }
