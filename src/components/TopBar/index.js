@@ -18,6 +18,8 @@ const StyledComponent = styled.div`
     font-family: ${theme.typography.font.default};
     color: white;
     letter-spacing: ${theme.typography.letterSpacing.default};
+    text-shadow: ${theme.typography.textShadow.default};
+    font-size: ${theme.typography.fontSize.h1};
   }
 
   button {

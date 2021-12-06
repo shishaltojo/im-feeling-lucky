@@ -3,8 +3,14 @@ const theme = {
     font: {
       default: 'Tahoma',
     },
+    fontSize: {
+      h1: '14px',
+    },
     letterSpacing: {
-      default: '0.2rem',
+      default: '1px',
+    },
+    textShadow: {
+      default: '1px 1px 5px black',
     },
   },
   palette: {
