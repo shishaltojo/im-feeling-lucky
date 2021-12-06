@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 // Components
 import Window from '../../components/Window';
+import ToneHandler from '../../components/ToneHandler';
 
 const NotePageStyled = styled.div`
   width: 100%;
@@ -35,6 +36,7 @@ const NotePage = () => {
 
   return (
     <Window>
+      <ToneHandler />
       <NotePageStyled>
         <div className="page">
           <h1>Diary</h1>
