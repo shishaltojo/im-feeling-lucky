@@ -20,6 +20,8 @@ const StyledComponent = styled.div`
     letter-spacing: ${theme.typography.letterSpacing.default};
     text-shadow: ${theme.typography.textShadow.default};
     font-size: ${theme.typography.fontSize.h1};
+
+    margin-right: auto;
   }
 
   button {
