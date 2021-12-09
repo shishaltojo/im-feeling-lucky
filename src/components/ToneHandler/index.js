@@ -12,6 +12,7 @@ const ToneHandlerStyled = styled.div`
   button {
     width: 40px;
     height: 40px;
+    cursor: pointer;
 
     &#white {
       background-color: #fff;
