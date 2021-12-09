@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ChapterStyled = styled.divˋ
-ˋ;
+const ChapterStyled = styled.div``;
 
 const Chapter = ({ children }) => {
     return (
@@ -11,3 +10,5 @@ const Chapter = ({ children }) => {
         </ChapterStyled>
     );
 };
+
+export default Chapter;

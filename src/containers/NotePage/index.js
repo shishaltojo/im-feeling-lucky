@@ -5,6 +5,9 @@ import styled from 'styled-components';
 import Window from '../../components/Window';
 import ToneHandler from '../../components/ToneHandler';
 
+// Chapters
+import Cover from '../../chapters/Cover'
+
 const NotePageStyled = styled.div`
   width: 100%;
   height: 100%;
@@ -15,7 +18,7 @@ const NotePageStyled = styled.div`
   justify-content: center;
   align-items: center;
 
-  .page {
+  div {
     width: 640px;
     height: 480px;
 
@@ -23,7 +26,7 @@ const NotePageStyled = styled.div`
 
     box-shadow: 10px 10px 0px #aaa;
 
-    h1, p {
+    h1, h2, p {
       font-family: monospace;
 
       text-align: center;
@@ -32,15 +35,11 @@ const NotePageStyled = styled.div`
 `;
 
 const NotePage = () => {
-  const [currentPage, setCurrentPage] = useState(0);
-
   return (
     <Window>
       <ToneHandler />
       <NotePageStyled>
-        <div className="page">
-          <h1>Diary</h1>
-        </div>
+        <Cover />
       </NotePageStyled>
     </Window>
   );

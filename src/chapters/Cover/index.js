@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Components
-import Chapter from '../Components/Chapter';
+import Chapter from '../../components/Chapter';
 
 const Cover = () => {
     return (
@@ -13,3 +13,5 @@ const Cover = () => {
         </Chapter>
     )
 };
+
+export default Cover;
