@@ -2,6 +2,7 @@ import React from 'react';
 
 // Components
 import Chapter from '../../components/Chapter';
+import BottomText from '../../components/BottomText';
 
 const Cover = () => {
     return (
@@ -9,7 +10,7 @@ const Cover = () => {
             <h1>Bleeding Edge 2</h1>
             <h2>The Darkest Future</h2>
 
-            <p>As life itself, this is a work in progress</p>
+            <BottomText>As life itself, this is a work in progress</BottomText>
         </Chapter>
     )
 };
